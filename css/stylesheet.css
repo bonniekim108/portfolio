@@ -1,0 +1,61 @@
+
+* {
+  font-family: 'Oswald', sans-serif;
+  
+}
+
+body {
+  width: ;
+}
+
+/*side header styling*/
+.side-header {
+  background-color: #8C8788;
+  top: 0;
+  left: 0;
+  width: 14%;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+  font-size: 30px;
+}        
+  
+.me {
+  color: white;
+  font-size: 20px;
+  margin-left: 23px;
+}
+
+h3 {
+  font-size: 32px;
+  margin-left: 23px;
+  color: white;
+}
+
+p {
+  margin-left: 23px;
+  font-size: 20px;
+}
+
+
+/*top header styling*/
+.about-me {
+  background-color: #B6D9D3;
+  height: 200px;
+/*  position: fixed;*/
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -2;
+}
+
+/*projects section styling*/
+.projects {
+  margin-left: 230px;
+  h3 {
+    font-size: 100px;
+  }
+}
+
+
+
