@@ -5,7 +5,8 @@
 }
 
 body {
-  width: ;
+  margin: 0;
+  padding: 0;
 }
 
 /*side header styling*/
@@ -13,49 +14,82 @@ body {
   background-color: #8C8788;
   top: 0;
   left: 0;
-  width: 14%;
+  width: 19%;
   height: 100%;
   position: fixed;
   overflow: auto;
-  font-size: 30px;
+
 }        
   
 .me {
   color: white;
-  font-size: 20px;
-  margin-left: 23px;
+  font-size: 1.4em;
+  margin-left: 2.2em;
 }
 
 h3 {
-  font-size: 32px;
-  margin-left: 23px;
+  font-size: 2.1em;
+  margin-left: 1.5em;
   color: white;
 }
 
 p {
-  margin-left: 23px;
-  font-size: 20px;
+  margin-left: 2.1em;
+  font-size: 1.4em;
 }
 
 
 /*top header styling*/
 .about-me {
   background-color: #B6D9D3;
-  height: 200px;
-/*  position: fixed;*/
-  top: 0;
-  left: 0;
+  height: 9.7em;
+  top: 0em;
+  right: 0em;
   width: 100%;
-  z-index: -2;
-}
-
-/*projects section styling*/
-.projects {
-  margin-left: 230px;
-  h3 {
-    font-size: 100px;
+  z-index: -3;
+  p {
+    font-size: 1em;
   }
 }
+
+.project-intro {
+  font-size: 4em;
+  text-align: center;
+  line-height: 0.5%;
+  letter-spacing: 0.25em;
+  margin-top: -0.1em;
+  margin-bottom: -0.5em;
+  margin-right: 0.1em;
+
+}
+.project-container {
+  width: 50em;
+  border-style: solid;
+  border-color: red;
+  height: 18em;
+  margin-left: 20em;
+}
+  .col-1 {
+    img {
+      width: 23em;
+      height: 19em;
+      border-style: dashed;
+      border-color: black;
+      margin-right: 3em;
+      float: left;
+    }
+    img:hover {
+      background-color: teal;
+    }
+  }
+  .col-2 {
+    width: 23em;
+    height: 19em;
+    border-style: dashed;
+    border-color: black;
+    float: left;
+
+  }
 
 
 

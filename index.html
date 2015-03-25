@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
+  <link rel="stylesheet" href="normalize.css" />
   <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
@@ -11,12 +11,14 @@
 <body>
   <nav class="side-header">
     <br>
+    <br>
     <div class="descriptions">
       <h3 class="meet">I am a(n)...</h3>
       <p class = "me"><span style="line-height: 10px; display: block">avid reader</span></p>
       <p class = "me"><span style="line-height: 10px; display: block">dreamer</span></p>
       <p class = "me"><span style="line-height: 10px; display: block">travel enthusiast</span></p>
       <p class = "me"><span style="line-height: 10px; display: block">hiker</span></p>
+      <p class = "me"><span style="line-height: 10px; display: block">forever Bruin</span></p>
       <p class = "me"><span style="line-height: 10px; display: block">skincare guru</span></p>
       <p class = "me"><span style="line-height: 10px; display: block">coffee lover</span></p>
       <p class = "me"><span style="line-height: 10px; display: block">sushi fan(atic)</span></p>
@@ -25,37 +27,38 @@
     </div>
     <br>
     <div class="connect">
-      <a href=""><p>LET'S CONNECT</p></a>
+      <a href="contact.html">LET'S CONNECT</a>
     </div>
   </nav>
 
   <nav class="top-header">
     <div class="about-me">
-      <span style="font-family: 'Lobster', cursive; padding: 20px 0 0 0; margin-left: 230px; font-size: 130px; ">hello there,</span><span style="font-size: 55px; margin-top: 80px">&nbsp;&nbsp;I'm Bonnie.</span>
+      <span style="font-family: 'Lobster', cursive; padding: 2.5em 0 0 3em;  font-size: 8.4em; ">hello there,</span><span style="font-size: 3.9em">&nbsp;&nbsp;I'm Bonnie.</span>
+
     </div>
   </nav>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <div class="projects">
-    <h3>WHAT I'VE MADE</h3><br>
-      <div class="col-sm-4 square-container">
-        <div class="circle"><span>"Simply Vocab" is an easy-to-use and accessible flashcard app. It is a Rails app with some JQuery and Bootstrap.</span>
+  <div class="project-intro">
+    <h5>RECENT PROJECTS</h5>
+  </div>
+  <div class="project-container outline">
+    <div class="row">
+      <div class="col-1">
+        <a href="https://simplyvocab.herokuapp.com">
+        <img src="img/simplyvocabscreen.png" alt="Flashcard App" title="Simply Vocab flashcard application"/>
+        <p>
+          This flashcard app helps people learn vocabulary effectively. It uses the Wordnik API, and was built with Rails, Bootstrap, and some JQuery.
+        </p>
       </div>
-      <div class="col-sm-4 square-container">
-        <div class="circle"><span>"Dish-it", a group effort, was built using Javascript and Foundation. It encourage social interaction, as users vote for the restaurants with their favorite dishes.</span>
+      <div class="col-2">
+        <img src="img/dishitscreen.png" alt="Dish-it App" title="Dish-it" />
+        <p>
+          Dish-it was a group project. It encourages users to vote for restaurants with their favorite dishes. Utilizing the YELP Api, it was built with AngularJS, Ruby on Rails, and Foundation.
+        </p>
       </div>
+    </div>
+  </div>
+
+    
 
 
 
