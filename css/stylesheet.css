@@ -62,34 +62,20 @@ p {
   margin-right: 0.1em;
 
 }
-.project-container {
+ul.project-container {
   width: 50em;
-  border-style: solid;
-  border-color: red;
   height: 18em;
   margin-left: 20em;
+  text-align: center;
+  padding: 0;
+  list-style-type: none;
 }
-  .col-1 {
-    img {
-      width: 23em;
-      height: 19em;
-      border-style: dashed;
-      border-color: black;
-      margin-right: 3em;
-      float: left;
-    }
-    img:hover {
-      background-color: teal;
-    }
-  }
-  .col-2 {
-    width: 23em;
-    height: 19em;
-    border-style: dashed;
-    border-color: black;
-    float: left;
-
-  }
-
-
-
+ul.project-container li {
+  display: inline-block;
+  height: 250px;
+  width: 250px;
+  position: relative;
+  margin-right: 3em;
+/*  float: left;*/
+}
+    
