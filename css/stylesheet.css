@@ -63,19 +63,57 @@ p {
 
 }
 ul.project-container {
-  width: 50em;
+ /* width: 50em;
   height: 18em;
-  margin-left: 20em;
+  margin-left: 20em;*/
   text-align: center;
+  margin: 0;
   padding: 0;
   list-style-type: none;
 }
 ul.project-container li {
   display: inline-block;
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
   position: relative;
-  margin-right: 3em;
+  /*margin-right: 3em;*/
+  margin: 0 1em 1em 0;
 /*  float: left;*/
 }
+
+span.text-content {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 300px;
+  width: 300px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+ul.project-container li:hover span.text-content {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
     
